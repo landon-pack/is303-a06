@@ -1,0 +1,10 @@
+I decided to analyze the employee_survey.csv file which was provided in canvas. When I first looked at it I quickly saw that there were only 50 rows of data.
+ I used df.head() and df.info to see what my data would look like. There were 9 different columns and the majority of the data was included.
+ I had to drop 3 rows that had null data which brought the total of the dataset down to 47 rows.
+ I decided to analyze the employee satisfaction by salary as well as the work life balance by department. 
+ I used groupby statements to do this and I found that the Marketing department has the hightest work life balance of 7.0.
+ I found that Those who make the most money are the most satisfied which is what I expected as well. 
+ In the bar-chart it was clear that those who make more money are typically more satisfied altough it was interesting that in the 60-80k range the employees were slightly more satisfied with a satisfaction rate of 5.82 than those in the 80-100k range who had a satisfaction rate of 5.8.
+
+ There are some limitations with the data. I would say that the biggest is the size of the dataset. With only 47 entries that we are drawing conclusions from it is hard to get solid averages. For example, the sales and operations departments only have 7 employees so whereas others have 10. It is hard to get good data when each department has so little employees. 
+ If one person were to give really bad reviews it would skew the whole average.
